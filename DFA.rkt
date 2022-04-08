@@ -111,7 +111,7 @@
              [(eq? character #\)) (values #f 'parenth)]
              [else (values #f 'fail)])]
     ['parenth (cond
-                [(sign? character) (values 'parenth 'sign)]
+                [(sign? character) (values 'parenth 'n_sign)]
                 [(operator? character) (values 'parenth 'op)]
                 [(eq? character #\ ) (values 'parenth 'n_sp)]
                 [(char-numeric? character) (values 'parenth 'int)]
