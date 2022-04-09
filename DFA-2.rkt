@@ -134,7 +134,7 @@
               [else (values #f 'fail)])
     ]
     ['par_close (cond
-              [(sign? character) (values 'par_close 'sign)]
+              [(sign? character) (values 'par_close 'n_sign)]
               [(operator? character) (values 'par_close 'op)]
               [(eq? character #\ ) (values 'par_close 'n_sp)]
               [(char-numeric? character) (values 'par_close 'int)]
@@ -142,7 +142,7 @@
               [else (values #f 'fail)])
     ]
     ['par_open (cond
-              [(sign? character) (values 'par_open 'sign)]
+              [(sign? character) (values 'par_open 'n_sign)]
               [(operator? character) (values 'par_open 'op)]
               [(eq? character #\ ) (values 'par_open 'n_sp)]
               [(char-numeric? character) (values 'par_open 'int)]
