@@ -18,4 +18,4 @@ You can also use automated tests by using the rackunit library.
 
 ## **How to run this program**
 
-Make sure to download the [latest version](https://download.racket-lang.org/) of Racket installed. You can run the program in the editor of your choice, however, opening the racket file will default to Racket's IDE.
+Make sure to download the [latest version](https://download.racket-lang.org/) of Racket installed. You can run the program in the editor of your choice, however, opening the racket file will probably default to Racket's IDE. After opening the DrRacket IDE, make sure to have the racket language selected by going to the <em>Languages </em> tab, and selecting the racket language. After that, pressing <em>play </em> will output the results.
