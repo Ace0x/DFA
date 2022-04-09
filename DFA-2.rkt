@@ -1,3 +1,4 @@
+;By Andrew Dunkerley and Juan Muniain
 #lang racket
 
 (require racket/trace)
